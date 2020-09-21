@@ -136,6 +136,7 @@ df                       # shows disk usage
 du <filename>            # shows the disk usage of the files and directories in filename (du -s give only a total)
 last <yourUsername>      # lists your last logins
 ps -u yourusername       # lists your processes
+pidof <processname>      # Get the process ID of a running program 
 kill <PID>               # kills the processes with the ID you gave
 killall <processname>    # kill all processes with the name
 top                      # displays your currently active processes
